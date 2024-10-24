@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightTest: 2024 Taichi Ichijo
 import sys
 
 
