@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightTest: 2024 Taichi Ichijo
 # SPDX-License-Identifier: BSD-3-Clause
 ng () {
