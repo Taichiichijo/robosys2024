@@ -9,5 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: All test
-      run: bash -xv ./test.bash
-           bash -xv ./testaverage.bash      
+      run: bash -xv ./testaverage.bash      
