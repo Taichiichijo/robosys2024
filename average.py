@@ -7,12 +7,8 @@ import sys
 def tonum(s):
     try:
         return int(s)
-    except ValueError:
-        try:
-            return float(s)
-        except ValueError:
-            print(f"無効な入力がありました: {s}", file=sys.stderr)
-            sys.exit(1)
+    except:
+        return float(s)
 
 numbers = []
 
@@ -20,15 +16,11 @@ for line in sys.stdin:
     line = line.rstrip()
     try:
         numbers.append(tonum(line))
-    except SystemExit:
-        raise
-    except Exception:
-        print(f"無効な入力がありました: {line}", file=sys.stderr)
-        sys.exit(1)
+    except:
+        print("無効な入力がありました: %s" % line)
 
 if numbers:
     average = sum(numbers) / len(numbers)
-    print(f"平均値: {average:.6f}")
+    print("平均値: %f" % average)
 else:
-    print("有効な数値が入力されませんでした", file=sys.stderr)
-    sys.exit(1)
+    print("有効な数値が入力されませんでした")
