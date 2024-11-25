@@ -37,5 +37,6 @@ $python3 ./average.py
  -このパッケージのコードは、下記のスライド　(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
  -https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html
  -https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1
+ -https://af-e.net/python-get-error-message/
  
  -2024 Taichi Ichijo
