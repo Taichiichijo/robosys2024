@@ -16,11 +16,11 @@ out=$(seq 5 | ./average.py)
 
 ### 異常動作 ###
 # 入力が無効 (文字列 "あ") の場合、エラーメッセージが出る
-out=$(echo あ | ./average.py)
+out=$(echo あ | ./average.py 2>&1)
 [ "$?" -ne 0 ] && echo "$out" | grep -q "無効な入力がありました" || ng "$LINENO"
 
 # 空の入力の場合、エラーメッセージが出る
-out=$(echo | ./average.py)
+out=$(echo | ./average.py 2>&1)
 [ "$?" -ne 0 ] && echo "$out" | grep -q "有効な数値が入力されませんでした" || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
