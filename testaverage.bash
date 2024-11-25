@@ -29,5 +29,5 @@ if ! echo "$out" | grep -q "有効な数値が入力されませんでした"; t
     ng "$LINENO"
 fi
 
-[ "$res" = 0 ] && echo OK
+[ "$res" -eq ] && echo OK
 exit "$res"
