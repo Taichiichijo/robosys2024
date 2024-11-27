@@ -21,7 +21,7 @@ if ! echo "$out" | grep -q "無効な入力がありました: あ"; then
     ng "$LINENO"
 fi
 
-### 空の入力の場合 ###
+### 空の入力の場合 ##
 out=$(echo | ./average.py 2>&1)
 if ! echo "$out" | grep -q "有効な数値が入力されませんでした"; then
     ng "$LINENO"
