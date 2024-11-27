@@ -3,6 +3,7 @@
 # averageコマンド
 [![test](https://github.com/Taichiichijo/robosys2024/actions/workflows/test.yml/badge.svg)]
 (https://github.com/Taichiichijo/robosys2024/actions/workflows/test.yml/)
+
 標準入力から読み込んだ数字の平均を出す。
 
 ## インストール方法
@@ -13,7 +14,9 @@ $cd tmp/robosys2024/
 
 ## 使い方
 
-$python3 ./average.py
+$chmod +x average.py
+
+$./average.py
 
 この後に数字を好き入力していき、最後にCtrl dで出力する
 ## 実行結果
