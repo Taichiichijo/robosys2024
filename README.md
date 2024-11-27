@@ -7,16 +7,16 @@
 標準入力から読み込んだ数字の平均を出す。
 
 ## インストール方法
-
+~~~
 $git clone git@github.com:Taichiichijo/robosys2024.git
 
 $cd tmp/robosys2024/
-
+~~~
 ## 使い方
 
 $chmod +x average.py
 
-$./average.py
+$./average
 
 この後に数字を好き入力していき、最後にCtrl dで出力する
 ## 実行結果
