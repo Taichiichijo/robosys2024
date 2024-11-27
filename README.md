@@ -9,19 +9,16 @@
 ## インストール方法
 ~~~
 $git clone git@github.com:Taichiichijo/robosys2024.git
-
 $cd tmp/robosys2024/
 ~~~
-## 使い方
+## 使用例
 ~~~
 $chmod +x average.py
-
-$./average
+$seq 5 | ./average.py
 ~~~
-この後に数字を好き入力していき、最後にCtrl dで出力する
 ## 実行結果
 
-平均値：nのように出る（nは数値が入る）
+平均値: 3.000000
 
 ## 必要なソフトウェア
 - Python
