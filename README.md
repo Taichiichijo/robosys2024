@@ -35,9 +35,9 @@ $./average
  未来ロボティクス学科所属
 
 ## 参考文献
- 授業スライド５-https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html
+ 授業スライド5-https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html
  
- 授業スライド７-https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1
+ 授業スライド7-https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1
  
  [Python] エラーメッセージを取得して出力する方法を解説-https://af-e.net/python-get-error-message/
 
@@ -46,6 +46,6 @@ $./average
 
  -このパッケージのコードは、下記のスライド　(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
 
- 　　-[ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+ 　　-[ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
 
  -2024 Taichi Ichijo
