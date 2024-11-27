@@ -1,7 +1,7 @@
 # robosys2024
 授業
 # averageコマンド
-![test](https://github.com/Taichiichijo/robosys2024/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/Taichiichijo/tmp/robosys2024/.github/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数字の平均を出す。
 
@@ -28,9 +28,8 @@ $python3 ./average.py
 - Ubuntu 20.04
 
 ## 作成者
-　一条泰地
+ 23C1015
  未来ロボティクス学科所属
- s23C1015UT@s.chibakoudai.jp
 
 ## 参考文献
  授業スライド５-https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html
