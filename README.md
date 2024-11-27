@@ -1,7 +1,7 @@
 # robosys2024
 授業
 # averageコマンド
-![test](https://github.com/Taichiichijo/robosys2024/actions/workflows/test.yml)
+![test](https://github.com/Taichiichijo/robosys2024/actions/workflows/test.yml/bagde.svg)
 
 標準入力から読み込んだ数字の平均を出す。
 
