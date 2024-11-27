@@ -37,7 +37,7 @@ $python3 ./average.py
  
  -https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1
  
- -https://af-e.net/python-get-error-message/
+ [Python] エラーメッセージを取得して出力する方法を解説-https://af-e.net/python-get-error-message/
  
  -https://docs.python.org/3/tutorial/errors.html
 
