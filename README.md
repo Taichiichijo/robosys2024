@@ -32,11 +32,13 @@ $python3 ./average.py
  未来ロボティクス学科所属
  s23C1015UT@s.chibakoudai.jp
 
-## ライセンスや著作権
- -このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可される
- -このパッケージのコードは、下記のスライド　(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
+## 参考文献
  -https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html
  -https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#1
  -https://af-e.net/python-get-error-message/
  -https://docs.python.org/3/tutorial/errors.html
+
+## ライセンスや著作権
+ -このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可される
+ -このパッケージのコードは、下記のスライド　(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
  -2024 Taichi Ichijo
